@@ -1,4 +1,3 @@
-// XXX make these courses funny, add images
 export default function Dashboard() {
   return (
     <div id="wd-dashboard">
@@ -6,105 +5,105 @@ export default function Dashboard() {
       <h2 id="wd-dashboard-published">Published Courses (12)</h2> <hr />
       <div id="wd-dashboard-courses">
         <div className="wd-dashboard-course">
-          <img src="/images/reactjs.jpg" width={200} />
+          <img src="/images/ryu.png" width={200} />
           <div>
             <a className="wd-dashboard-course-link"
               href="#/Kanbas/Courses/1234/Home">
-              CS1234 React JS
+              Fireballs: Theory and Practice
             </a>
             <p className="wd-dashboard-course-title">
-              Full Stack software developer
+              Is this class difficult? It's down-right fierce!
             </p>
             <a href="#/Kanbas/Courses/1234/Home"> Go </a>
           </div>
         </div>
         <div className="wd-dashboard-course">
-          <img src="/images/reactjs.jpg" width={200} />
+          <img src="/images/honda.png" width={200} />
           <div>
             <a className="wd-dashboard-course-link"
               href="#/Kanbas/Courses/1234/Home">
-              CS1234 React JS
+              Throwing Hands
             </a>
             <p className="wd-dashboard-course-title">
-              Full Stack software developer
+              Dive in belly first.
             </p>
             <a href="#/Kanbas/Courses/1234/Home"> Go </a>
           </div>
         </div>
         <div className="wd-dashboard-course">
-          <img src="/images/reactjs.jpg" width={200} />
+          <img src="/images/blanka.png" width={200} />
           <div>
             <a className="wd-dashboard-course-link"
               href="#/Kanbas/Courses/1234/Home">
-              CS1234 React JS
+              The Electrical Martial Arts
             </a>
             <p className="wd-dashboard-course-title">
-              Full Stack software developer
+              Finally, a class to get excited about.
             </p>
             <a href="#/Kanbas/Courses/1234/Home"> Go </a>
           </div>
         </div>
         <div className="wd-dashboard-course">
-          <img src="/images/reactjs.jpg" width={200} />
+          <img src="/images/guile.png" width={200} />
           <div>
             <a className="wd-dashboard-course-link"
               href="#/Kanbas/Courses/1234/Home">
-              CS1234 React JS
+              Jet Pilotry for the Impatient
             </a>
             <p className="wd-dashboard-course-title">
-              Full Stack software developer
+              You'll be flying in a flash!
             </p>
             <a href="#/Kanbas/Courses/1234/Home"> Go </a>
           </div>
         </div>
         <div className="wd-dashboard-course">
-          <img src="/images/reactjs.jpg" width={200} />
+          <img src="/images/ken.png" width={200} />
           <div>
             <a className="wd-dashboard-course-link"
               href="#/Kanbas/Courses/1234/Home">
-              CS1234 React JS
+              Dracopyropugilism
             </a>
             <p className="wd-dashboard-course-title">
-              Full Stack software developer
+              NOTE: Conflicts with F:T&P.
             </p>
             <a href="#/Kanbas/Courses/1234/Home"> Go </a>
           </div>
         </div>
         <div className="wd-dashboard-course">
-          <img src="/images/reactjs.jpg" width={200} />
+          <img src="/images/chun-li.png" width={200} />
           <div>
             <a className="wd-dashboard-course-link"
               href="#/Kanbas/Courses/1234/Home">
-              CS1234 React JS
+              From Ballet to Ballistics
             </a>
             <p className="wd-dashboard-course-title">
-              Full Stack software developer
+              We got a real kick out of this class
             </p>
             <a href="#/Kanbas/Courses/1234/Home"> Go </a>
           </div>
         </div>
         <div className="wd-dashboard-course">
-          <img src="/images/reactjs.jpg" width={200} />
+          <img src="/images/zangief.png" width={200} />
           <div>
             <a className="wd-dashboard-course-link"
               href="#/Kanbas/Courses/1234/Home">
-              CS1234 React JS
+              Basket Weaving
             </a>
             <p className="wd-dashboard-course-title">
-              Full Stack software developer
+              Snorkel and mask encouraged.
             </p>
             <a href="#/Kanbas/Courses/1234/Home"> Go </a>
           </div>
         </div>
         <div className="wd-dashboard-course">
-          <img src="/images/reactjs.jpg" width={200} />
+          <img src="/images/dhalsim.png" width={200} />
           <div>
             <a className="wd-dashboard-course-link"
               href="#/Kanbas/Courses/1234/Home">
-              CS1234 React JS
+              Cooking with Spice
             </a>
             <p className="wd-dashboard-course-title">
-              Full Stack software developer
+              This one will stretch you to your limits.
             </p>
             <a href="#/Kanbas/Courses/1234/Home"> Go </a>
           </div>
