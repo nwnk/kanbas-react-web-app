@@ -13,15 +13,17 @@ export default function Courses() {
         Course 1234
       </h2>
       <hr />
-      <CoursesNavigation />
       <div>
-        <Routes>
-          <Route path="/" element={<Navigate to="Home" />} />
-          <Route path="Home" element={<Home />} />
-          <Route path="Modules" element={<Modules />} />
-          <Route path="Assignments" element={<Assignments />} />
-          <Route path="Assignments/:id" element={<AssignmentEditor/>} />
-        </Routes>
+      <CoursesNavigation />
+        <div className="wd-float-left">
+          <Routes>
+            <Route path="/" element={<Navigate to="Home" />} />
+            <Route path="Home" element={<Home />} />
+            <Route path="Modules" element={<Modules />} />
+            <Route path="Assignments" element={<Assignments />} />
+            <Route path="Assignments/:id" element={<AssignmentEditor/>} />
+          </Routes>
+        </div>
       </div>
     </div>
 );}
