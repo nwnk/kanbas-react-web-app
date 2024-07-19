@@ -1,7 +1,8 @@
 import { MdDoNotDisturbAlt } from "react-icons/md";
-import { FaCheckCircle, FaHome, FaChartBar } from "react-icons/fa";
+import { FaCheckCircle, FaHome, FaChartBar, FaBullhorn } from "react-icons/fa";
 import { BiImport } from "react-icons/bi";
 import { LiaFileImportSolid } from "react-icons/lia";
+import { IoAnalytics } from "react-icons/io5";
 {/* Find more icons */}
 export default function CourseStatus() {
   return (
@@ -39,11 +40,11 @@ export default function CourseStatus() {
         View Course Screen
       </button>
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-        <LiaFileImportSolid className="me-2 fs-5" />
+        <FaBullhorn className="me-2 fs-5" />
         New Announcement
       </button>
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-        <LiaFileImportSolid className="me-2 fs-5" />
+        <IoAnalytics className="me-2 fs-5" />
         New Analytics
       </button>
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">

@@ -8,6 +8,14 @@ export default function ModulesControls() {
         Module
       </button>
       <div className="dropdown d-inline me-1 float-end">
+        <button id="wd-collapse-all-btn" className="btn btn-lg btn-secondary"
+          type="button">
+          Collapse All
+        </button>
+        <button id="wd-view-progress-btn" className="btn btn-lg btn-secondary"
+          type="button">
+          View Progress
+        </button>
         <button id="wd-publish-all-btn" className="btn btn-lg btn-secondary dropdown-toggle"
           type="button" data-bs-toggle="dropdown">
           <GreenCheckmark />
